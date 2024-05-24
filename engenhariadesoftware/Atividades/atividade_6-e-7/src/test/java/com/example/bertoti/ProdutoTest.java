@@ -7,24 +7,24 @@ public class ProdutoTest {
 
     @Test
     public void testCalcularTotalVendas() {
-        Produto produto = new Produto("P1", "Produto 1", 50.0);
+        Produto produto = new Produto("P1", "GTX-1650", 700.0);
 
-        assertEquals(100.0, produto.calcularTotalVendas(2));
+        assertEquals(1400.0, produto.calcularTotalVendas(2));
     }
 
     @Test
     public void testAtualizarPreco() {
-        Produto produto = new Produto("P1", "Produto 1", 50.0);
-        produto.atualizarPreco(60.0);
+        Produto produto = new Produto("P1", "GTX-1650", 700.0);
+        produto.atualizarPreco(850.0);
 
-        assertEquals(60.0, produto.getPreco());
+        assertEquals(850.0, produto.getPreco());
     }
 
     @Test
     public void testAtualizarNome() {
-        Produto produto = new Produto("P1", "Produto 1", 50.0);
-        produto.atualizarNome("Novo Produto");
+        Produto produto = new Produto("P1", "GTX-1650", 700.0);
+        produto.atualizarNome("GTX-1660");
 
-        assertEquals("Novo Produto", produto.getNome());
+        assertEquals("GTX-1660", produto.getNome());
     }
 }
