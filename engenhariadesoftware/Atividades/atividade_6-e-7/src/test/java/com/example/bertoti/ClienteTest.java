@@ -7,7 +7,7 @@ public class ClienteTest {
 
     @Test
     public void testAdicionarPedido() {
-        Cliente cliente = new Cliente("1", "João", "joao@example.com");
+        Cliente cliente = new Cliente("1", "Pablo", "pablohenrique@gmail.com");
         Pedido pedido = new Pedido("1", cliente);
 
         cliente.adicionarPedido(pedido);
