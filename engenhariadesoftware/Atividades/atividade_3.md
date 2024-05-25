@@ -1,20 +1,25 @@
-Layered Architecture Style:
-Um exemplo seria utilizando no desenvolvimento Web, pois aumentar a quantidade de camadas pode levar a uma comunicação
-mais estruturada entre componentes, mas também pode resultar em sobrecarga devido à necessidade de gerenciar interfaces
-entre essas camadas. Acredito que em projetos mais robustos, mesmo que seu custo inicial seja elevado, como é algo focado 
-no longo prazo, pode oferecer benefícios significativos.
+## Arquiteturas de Software
 
-Pipeline Architecture Style:
-Um exemplo seria em sistemas de análise de dados, vendo o trade-off, podemos destacar entre simplicidade e flexibilidade, pois acaba oferecendo uma clara linearidade no processamento de dados ou tasks, no entanto, o desafio pode acabar surgindo quando há necessidade de adaptar o pipeline a mudanças nos requisitos ou adicionar novas funcionalidades.
+### Layered Architecture Style
+Um exemplo comum no desenvolvimento Web. A adição de camadas pode levar a uma comunicação mais estruturada entre componentes, mas também pode resultar em sobrecarga devido à necessidade de gerenciar interfaces entre essas camadas. 
+- **Trade-off**: Estruturação e organização versus sobrecarga de gerenciamento e desempenho.
 
-Microkernel Architecture Style:
-Um exemplo seria para ser integrada em sistemas operacionais existentes, facilitando testes e "pre-updates" antes de realmente ocorrer uma atualização. Acredito que o custo possa facilitar bastante para progressão do software envolvido, mas, acredito que a "Fault Tolerance" seja baixa por conta de que se caso ocorrer algum problema, a corretiva dessa arquitetura deve ser mais complexa do que os métodos de preventiva que comentei anteriormente.
+### Pipeline Architecture Style
+Utilizada frequentemente em sistemas de análise de dados. O trade-off principal é entre simplicidade e flexibilidade. A arquitetura oferece uma linearidade clara no processamento de dados, mas pode apresentar desafios quando há necessidade de adaptar o pipeline a mudanças nos requisitos ou adicionar novas funcionalidades.
+- **Trade-off**: Simplicidade e linearidade versus dificuldade em adaptações e adições de funcionalidades.
 
-Service-Based Architecture Style:
-Aparenta ser um método que utiliza de serviços para criar aplicações empresariais, acredito que um exemplo que utiliza dessa arquitetura, seria o "Power Apps" desenvolvido pela Microsoft, que seu propósito em contexto geral é basicamente realizar essa função. Aparenta ser mais estável do que os outros citados, pois seus requisitos não funcionais acabam sendo "balanceados", mas acredito que seu custo e tolerância a falhas possam se sobressair para esses fins, enquanto pode ser uma arquitetura que não possui uma alta gama de flexibilidade para reorganizações de projetos.
+### Microkernel Architecture Style
+Adequada para integração em sistemas operacionais existentes, facilitando testes e "pre-updates" antes de atualizações reais. Essa arquitetura pode reduzir custos de progressão do software, mas a tolerância a falhas é baixa. Se ocorrer um problema, a correção pode ser mais complexa do que métodos preventivos.
+- **Trade-off**: Flexibilidade para atualizações e testes versus baixa tolerância a falhas e complexidade na correção de problemas.
 
-Event-Driven Architecture Style:
-Para essa arquitetura, sinto que um exemplo de software mais voltado para o streaming se encaixaria melhor, como a própria Netflix, contendo diversos requisitos bem colocados, como o próprio quesito de evolução, que seguindo nessa lógica, se encaixa muito bem por precisar de uma boa adaptabilidade para progressão dos softwares nesse ramo. No entanto, todas essas ótimas "avaliações" acabam impactando diretamente na sua complexidade para se utilizar.
+### Service-Based Architecture Style
+Utilizada para criar aplicações empresariais através de serviços, como o "Power Apps" da Microsoft. É uma arquitetura mais estável, com requisitos não funcionais balanceados. No entanto, pode ter um custo elevado e menor tolerância a falhas. Além disso, pode não ser muito flexível para reorganizações de projetos.
+- **Trade-off**: Estabilidade e balanceamento de requisitos versus custo elevado e menor flexibilidade para mudanças.
 
-Microservices Architecture:
-Outro tipo de arquitetura em que possuem muitos pontos fortes para um desenvolvimento de softwares mais robustos, em que seu custo acaba sendo mais inviável se fosse o caso de projetos de menor porte. Entretanto, um ótimo exemplo seria a Amazon, sendo uma empresa gigante que pode usufruir de sua escalabilidade e proeficiência em suas aplicações.
+### Event-Driven Architecture Style
+Ideal para softwares de streaming, como a Netflix. Esta arquitetura se adapta bem à evolução e à necessidade de alta adaptabilidade. No entanto, a complexidade de implementação e utilização é um fator a considerar, devido à necessidade de gerenciar eventos e respostas de forma eficiente.
+- **Trade-off**: Alta adaptabilidade e evolução versus complexidade de implementação e gestão de eventos.
+
+### Microservices Architecture Style
+Excelente para o desenvolvimento de softwares robustos e escaláveis, sendo ideal para grandes empresas como a Amazon. Apesar dos muitos pontos fortes, como escalabilidade e eficiência, o custo pode ser inviável para projetos de menor porte.
+- **Trade-off**: Escalabilidade e eficiência versus custo elevado e complexidade de gestão.
