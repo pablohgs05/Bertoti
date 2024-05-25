@@ -7,3 +7,4 @@ We see three critical differences between programming and software engineering: 
 
 
 Answer: Engenharia de software se dedica à aplicação de princípios na criação, desenvolvimento, manutenção e evolução de sistemas de software. Integrando o uso de métodos, ferramentas e processos para garantir a qualidade, eficiência e confiabilidade dos produtos de software.
+Enquanto a programação é essencial para gerar novos softwares, a engenharia de software vai além, incorporando preocupações com o tempo, escala e os compromissos envolvidos. Em projetos, os engenheiros precisam lidar com o tempo e a necessidade futura de mudanças, além de considerar a escala e eficiência tanto do software quanto da organização que o produz.
