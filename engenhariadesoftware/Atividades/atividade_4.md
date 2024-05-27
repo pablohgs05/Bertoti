@@ -1,6 +1,6 @@
 ### Escolher um sistema e definir uma arquitetura, explicando de acordo com os requisitos não funcionais descritos em seu trade-off:
 
-Escolhendo a arquitetura de microserviços para nossa loja de computadores, que envolve a venda e manutenção de hardware e software, aqui está como planejo definir nossa arquitetura com foco nos requisitos não funcionais e nos trade-offs associados:
+Escolhendo a arquitetura de microserviços para uma loja de computadores, que envolve a venda e manutenção de hardware e software, aqui está como planejo definir a arquitetura com foco nos requisitos não funcionais e nos trade-offs associados:
 
 ### Escalabilidade
 Opto pelos microserviços devido à escalabilidade horizontal. Podemos escalar serviços individuais conforme a demanda, como o sistema de pedidos durante promoções, sem impactar outras partes do sistema. No entanto, isso vem com o desafio de gerenciar a comunicação e as dependências entre serviços, exigindo ferramentas de orquestração como Kubernetes.
