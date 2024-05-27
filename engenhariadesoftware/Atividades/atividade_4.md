@@ -1,4 +1,4 @@
-Escolher um sistema e definir uma arquitetura, explicando de acordo com os requisitos não funcionais descritos em seu trade-off:
+### Escolher um sistema e definir uma arquitetura, explicando de acordo com os requisitos não funcionais descritos em seu trade-off:
 
 Escolhendo a arquitetura de microserviços para nossa loja de computadores, que envolve a venda e manutenção de hardware e software, aqui está como planejo definir nossa arquitetura com foco nos requisitos não funcionais e nos trade-offs associados:
 
