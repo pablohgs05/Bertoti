@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos API - Modo Dark</title>
+    <style>
+        body {
+            background-color: #121212; 
+            color: #FFFFFF;
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #FFFFFF;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        form {
+            width: 50%;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #FFFFFF;
+            background-color: #1e1e1e;
+            text-align: center;
+        }
+
+        input {
+            margin: 10px;
+            padding: 10px;
+            border: none;
+            background-color: #333333;
+            color: #FFFFFF;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #03DAC6;
+            border: none;
+            color: #121212;
+            cursor: pointer;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .bertoti-symbol {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .bertoti-symbol h1 {
+            font-size: 48px;
+            font-weight: bold;
+            color: #03DAC6;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Produtos</h1>
+
+<form id="produto-form">
+    <input type="text" id="nome" placeholder="Nome do Produto" required />
+    <input type="number" id="preco" placeholder="Preço do Produto" step="0.01" required />
+    <button type="submit">Adicionar Produto</button>
+</form>
+
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Preço</th>
+    </tr>
+    </thead>
+    <tbody id="produtos-table">
+    </tbody>
+</table>
+
+<div class="bertoti-symbol">
+    <h1>#BertotiMelhorProfessor</h1>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
