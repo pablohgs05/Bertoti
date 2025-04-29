@@ -22,7 +22,7 @@ Me chamo Pablo Henrique, sou estudante de Banco de Dados na FATEC São José dos
 
 ## Meus Projetos
 
-### Em 2023-1: API Porygon2
+### Em 2024-2: API Porygon2
 
 **Empresa parceira:** GSW (Global Solutions & Web)  
 **Problema:** Pesquisadores precisavam automatizar a captura e organização de notícias e dados vindos de portais e APIs para análise estratégica, mas enfrentavam dificuldade em filtrar e categorizar grandes volumes de informação.  
