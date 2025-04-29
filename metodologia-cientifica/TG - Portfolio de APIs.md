@@ -1,16 +1,16 @@
 # Pablo Henrique
- 
+
 ## Introdução
- 
-Me chamo Pablo Henrique, sou estudante de Banco de Dados na FATEC São José dos Campos (Prof. Jessen Vidal), atualmente no 4º semestre. Trabalho como estagiário de analista de dados na engenharia de manutenção da Gerdau SJC, onde apoio na coleta, tratamento e visualização de indicadores de manutenção. Tenho paixão por backend, automação de processos e modelagem de dados.
- 
+
+Me chamo Pablo Henrique, sou estudante de Banco de Dados na FATEC São José dos Campos (Prof. Jessen Vidal), atualmente no 4º semestre. Atuo como estagiário de analista de dados na engenharia de manutenção da Gerdau SJC, mas neste portfólio apresento meu trabalho acadêmico em parceria com a **GSW** (Global Solutions & Web), onde desenvolvemos uma API de coleta e organização de dados estratégicos.
+
 ## Contatos
- 
-* [GIT](https://github.com/pablohgs05)  
-* [LinkedIn](https://www.linkedin.com/in/pablohgs05)
- 
+
+* [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pablohgs05)  
+* [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pablohgs05)
+
 ## Meus Principais Conhecimentos
- 
+
 - **Java & Spring Boot** (REST, Data JPA, Thymeleaf)  
 - **Python** (scripting, análise de dados)  
 - **SQL** (MySQL, PostgreSQL)  
@@ -19,17 +19,19 @@ Me chamo Pablo Henrique, sou estudante de Banco de Dados na FATEC São José dos
 - **APIs REST** (modelagem de endpoints, DTOs)  
 - **Modelagem de Dados** (ER, normalização)  
 - **Metodologias Ágeis** (SCRUM)
- 
+
 ## Meus Projetos
- 
-### Em 2024-2
- 
-No terceiro semestre desenvolvemos, em equipe, a **API Porygon2**, uma aplicação web para captura e organização de dados estratégicos vindos de portais de notícias e APIs públicas.
- 
-[GIT](https://github.com/PorygonAPI/Porygon2)
- 
+
+### Em 2023-1: API Porygon2
+
+**Empresa parceira:** GSW (Global Solutions & Web)  
+**Problema:** Pesquisadores precisavam automatizar a captura e organização de notícias e dados vindos de portais e APIs para análise estratégica, mas enfrentavam dificuldade em filtrar e categorizar grandes volumes de informação.  
+**Solução entregue:** Desenvolvemos uma aplicação web em Java/Spring Boot com templates Thymeleaf para cadastro de portais e APIs, raspagem agendada, filtros por tags (e sinônimos), paginação dinâmica e consulta avançada de dados.
+
+[GIT ↗](https://github.com/PorygonAPI/Porygon2)
+
 #### Tecnologias Utilizadas
- 
+
 - Java 22  
 - Spring Boot 3.3.3 (Web, Data JPA, Thymeleaf, DevTools)  
 - MySQL  
@@ -37,27 +39,24 @@ No terceiro semestre desenvolvemos, em equipe, a **API Porygon2**, uma aplicaç�
 - Jsoup (web scraping)  
 - Jackson (JSON/XML)  
 - Maven  
- 
+
 #### Contribuições Pessoais
-   
-- Desenvolvi a **validação de entrada** e controle de erros para dados obrigatórios.  
-- Criei a **busca por tags e sinônimos** em múltiplos repositórios, com métodos customizados.  
-- Estruturei a **associação automática de tags** em notícias e respostas de API, usando análise textual simples.
-- Implementei **paginação dinâmica** nos endpoints REST e nos templates Thymeleaf, garantindo performance em listagens grandes.  
-- Refatorei controllers e services para melhorar legibilidade, reduzindo duplicação de código e aumentando cobertura de testes.  
-- Participei de merges e resoluções de conflitos em diversas branches de sprint, assegurando um histórico limpo e significativo.  
- 
-#### Hard Skills
- 
-- **Spring Data JPA** – consultas dinâmicas, relacionamentos M:N  
-- **REST APIs** – definição de contratos, DTOs, tratamento de exceções  
-- **Jsoup** – extração de conteúdo HTML e agendamento de raspagem  
-- **Thymeleaf** – templates responsivos e reativos  
-- **Git** – branching strategy, pull requests e code review  
- 
-#### Soft Skills
- 
-- **Comunicação** – conduzi sessões de refinamento de backlog e apresentei demos de funcionalidades.  
-- **Colaboração** – trabalhei em par com colegas para alinhar lógicas de negócio e resolver bugs críticos.  
-- **Proatividade** – identifiquei pontos de melhoria em performance e propus otimizações antes do prazo.  
-- **Organização** – gerenciei minhas tarefas usando Jira, cumprindo estimativas de story points.
+
+- **Validação e Tratamento de Erros**  
+  Modelei o `ApiDadosDTO` com anotações de Bean Validation e configurei handlers globais para respostas padronizadas em caso de falhas de input.  
+- **Busca por Tags e Sinônimos**  
+  Criei consultas customizadas em `ApiDadosRepository` para filtrar registros por palavras-chave e sinônimos, usando relacionamentos muitos-para-muitos.  
+- **Associação Automática de Tags**  
+  Implementei rotina de análise de texto que atribui tags às notícias e respostas de API no momento da coleta inicial, reduzindo a necessidade de categorização manual.  
+- **Paginação Dinâmica**  
+  Desenvolvi lógica de paginação backend (Pageable/Slice) e controles Thymeleaf no frontend, permitindo ajustar o número de itens por página conforme o volume de dados.  
+- **Refatoração & Merges**  
+  Reestruturei controllers e services para melhorar legibilidade, removi código duplicado, aumentei a cobertura de testes e conduzi merges de branches, resolvendo conflitos de forma organizada.
+
+#### Aprendizados Efetivos
+
+- **Design de APIs REST** – Consolidei padrões de melhores práticas para versionamento, DTOs e tratamento de exceções.  
+- **Spring Data JPA Avançado** – Aprofundei uso de consultas dinâmicas, paginação e relacionamento M:N.  
+- **Web Scraping Robusto** – Entendi como adaptar seletores HTML a sites heterogêneos e agendar tarefas com Spring Scheduler.  
+- **Colaboração em Equipe** – Usei Jira e GitHub Projects para gerenciar sprints, refinei backlog e participei ativamente de code reviews.  
+- **Qualidade de Código** – Apliquei princípios SOLID e pattern DTO/Service, melhorando manutenibilidade e testabilidade do sistema.
