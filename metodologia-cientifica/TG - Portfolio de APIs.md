@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Me chamo Pablo Henrique, sou estudante de Banco de Dados na FATEC São José dos Campos (Prof. Jessen Vidal), atualmente no 4º semestre. Atuo como estagiário de analista de dados na engenharia de manutenção da Gerdau SJC, mas neste portfólio apresento meu trabalho acadêmico em parceria com a **GSW** (Global Solutions & Web), onde desenvolvemos uma API de coleta e organização de dados estratégicos.
+Me chamo Pablo Henrique, sou estudante de Banco de Dados na FATEC São José dos Campos (Prof. Jessen Vidal), atualmente no 4º semestre. Atuo como estagiário de analista de dados na engenharia de manutenção da Gerdau SJC, neste portfólio apresento minhas contribuições em nossos desenvolvimentos de APIs.
 
 ## Contatos
 
