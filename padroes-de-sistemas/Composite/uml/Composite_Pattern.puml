@@ -1,0 +1,22 @@
+@startuml Composite_Pattern
+interface ItemCardapio {
+    +getPreco(): double
+}
+class Produto {
+    -nome: String
+    -preco: double
+    +getPreco(): double
+}
+class Combo {
+    -itens: List<ItemCardapio>
+    +addItem(ItemCardapio): void
+    +getPreco(): double
+}
+class Teste {
+    +main(String[]): void
+}
+ItemCardapio <|.. Produto
+ItemCardapio <|.. Combo
+Teste --> Produto
+Teste --> Combo
+@enduml

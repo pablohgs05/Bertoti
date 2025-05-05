@@ -1,0 +1,7 @@
+@startuml Strategy_AntiPattern
+class Contexto {
+    +executar(operacao: String, a: int, b: int): int
+}
+class Teste
+Teste --> Contexto
+@enduml

@@ -1,0 +1,10 @@
+@startuml Singleton_Pattern
+class Singleton {
+    -instancia: Singleton
+    -Singleton()
+    +getInstancia(): Singleton
+    +acao(): void
+}
+class Teste
+Teste --> Singleton
+@enduml

@@ -1,0 +1,14 @@
+@startuml Observer_AntiPattern
+class EstacaoMeteorologica {
+    -temperatura: double
+    -app: AppClima
+    -display: PainelDisplay
+    +setTemperatura(temp: double)
+}
+class AppClima
+class PainelDisplay
+class Teste
+EstacaoMeteorologica --> AppClima
+EstacaoMeteorologica --> PainelDisplay
+Teste --> EstacaoMeteorologica
+@enduml

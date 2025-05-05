@@ -1,0 +1,11 @@
+@startuml Strategy_Pattern
+interface Estrategia
+class Soma
+class Subtracao
+class Contexto
+class Teste
+Estrategia <|.. Soma
+Estrategia <|.. Subtracao
+Contexto --> Estrategia
+Teste --> Contexto
+@enduml

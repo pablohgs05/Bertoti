@@ -1,0 +1,19 @@
+@startuml Observer_Pattern
+interface Subject {
+    +registrar(Observer)
+    +remover(Observer)
+    +notificar()
+}
+interface Observer {
+    +atualizar(temp: double)
+}
+class EstacaoMeteorologica
+class AppClima
+class PainelDisplay
+class Teste
+Subject <|.. EstacaoMeteorologica
+Observer <|.. AppClima
+Observer <|.. PainelDisplay
+EstacaoMeteorologica --> Observer
+Teste --> EstacaoMeteorologica
+@enduml
